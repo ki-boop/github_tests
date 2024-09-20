@@ -1,0 +1,30 @@
+body {
+  background: #0d1117;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background: linear-gradient(95.02deg, #697cf5 10.91%, #18aae0 28.04%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.icons {
+  position: absolute;
+  top: 24px;
+  right: 26px;
+  display: flex;
+  gap: 10px;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
